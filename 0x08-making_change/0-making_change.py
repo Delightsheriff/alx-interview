@@ -12,7 +12,7 @@ def makeChange(coins, total):
     count = 0
     coin_sum = 0
     for coin in coins:
-        while coin  + coin_sum<= total:
+        while coin + coin_sum <= total:
             coin_sum += coin
             count += 1
         if coin_sum == total:
