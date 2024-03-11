@@ -22,7 +22,6 @@ def isWinner(x, nums):
 
                 nums = [n for n in nums if n % num != 0 and n != num]
                 break
-        # Update wins based on who can make the next move
         if can_maria_move:
             maria_wins += 1
         else:
